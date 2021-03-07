@@ -1,0 +1,21 @@
+<html>
+    <body text=#041574 bgcolor=#C3C9EA>
+
+        <center>
+
+        <h1> IRIS FLOWER DETECTION </h1><br>
+
+        <form method="POST", action="{{url_for('home')}}">
+           <b> sepal length :  <input type="text", name='a', placeholder="enter in (cm)"> <br><br>
+            sepal width :  <input type="text", name='b', placeholder="enter in (cm)"> <br><br>
+            petal length :  <input type="text", name='c', placeholder="enter in (cm)"> <br><br>
+            petal width : <input type="text", name='d', placeholder="enter in (cm)"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='static\flower1.jpg' alt="flower" style="width:600px;height:300px;">
+
+        </center>
+
+    </body>
+</html>
